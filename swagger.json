@@ -13,7 +13,7 @@
     }
   },
   "paths" : {
-    "/PhoneBookLogin.php" : {
+    "/PhonebookLogin.php" : {
       "post" : {
         "summary" : "Logs in to phonebookpro app",
         "operationId" : "doLogin",
@@ -41,7 +41,7 @@
         }
       }
     },
-    "/PhoneBookRegister.php" : {
+    "/PhonebookRegister.php" : {
       "post" : {
         "tags" : [ "Users" ],
         "summary" : "Adds a new user",
@@ -67,7 +67,7 @@
         }
       }
     },
-    "/PhoneBookSearch.php" : {
+    "/PhonebookSearch.php" : {
       "post" : {
         "summary" : "Searches for user",
         "operationId" : "searchUser",
@@ -146,6 +146,6 @@
     }
   },
   "host" : "phonebookpro.me",
-  "basePath" : "/API/",
+  "basePath" : "/API",
   "schemes" : [ "http" ]
 }
